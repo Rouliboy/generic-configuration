@@ -1,6 +1,6 @@
 package fr.pe.jvi.generic.configuration.api;
 
-public abstract class ConfigurationProperty<T> {
+public class ConfigurationProperty<T> {
 	private final String name;
 
 	private final T defaultValue;
